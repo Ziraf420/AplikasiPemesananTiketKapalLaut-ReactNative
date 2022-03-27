@@ -105,7 +105,7 @@ const Confirm = ({ navigation, route }) => {
                     <View style={styles.search}>
                         <TextInput
                             style={styles.input}
-                            placeholder="21 Tahun"
+                            placeholder="15 Tahun"
                             onChangeText={getInput('age')}
                             value={text.age}
                         />
@@ -121,25 +121,25 @@ const Confirm = ({ navigation, route }) => {
                         <TouchableOpacity
                             style={styles.buttonbottomBar}
                             onPress= {() => navigation.navigate('Home')}>
-                            <Icon name="home" size={30} color='#adad0c'/>
+                            <Icon name="home" size={30} color='#6b0202'/>
                             <Text style={styles.buttonbarText}>Beranda</Text>
                         </TouchableOpacity>
                         <TouchableOpacity
                             style={styles.buttonbottomBar}
                             onPress= {() => navigation.navigate('Order')}>
-                            <Icon name="book" size={30} color='#adad0c'/>
+                            <Icon name="book" size={30} color='#6b0202'/>
                             <Text style={styles.buttonbarText}>Pesanan Saya</Text>
                         </TouchableOpacity>
                         <TouchableOpacity
                             style={styles.buttonbottomBar}
                             onPress= {() => navigation.navigate('Home')}>
-                            <Icon name="ban" size={30} color='#adad0c'/>
+                            <Icon name="ban" size={30} color='#6b0202'/>
                             <Text style={styles.buttonbarText}>Pembatalan</Text>
                         </TouchableOpacity>
                         <TouchableOpacity
                             style={styles.buttonbottomBar}
                             onPress= {() => navigation.navigate('Home')}>
-                            <Icon name="gears" size={30} color='#adad0c'/>
+                            <Icon name="gears" size={30} color='#6b0202'/>
                             <Text style={styles.buttonbarText}>Lainnya</Text>
                         </TouchableOpacity>
                     </View>
@@ -165,7 +165,7 @@ const styles = StyleSheet.create({
         shadowRadius: 5,
     },
     title: {
-        color: '#adad0c',
+        color: '#6b0202',
         fontSize: 50,
         fontWeight: 'bold',
         letterSpacing: 2,
@@ -249,8 +249,8 @@ const styles = StyleSheet.create({
     backButton: {
         borderWidth: 1,
         backgroundColor: '#fff',
-        borderColor: '#adad0c',
-        color: '#adad0c',
+        borderColor: '#6b0202',
+        color: '#6b0202',
         borderRadius: 5,
         marginHorizontal: 15,
         paddingVertical: 10,
@@ -260,8 +260,8 @@ const styles = StyleSheet.create({
     },
     confirmButton: {
         borderWidth: 1,
-        backgroundColor: '#adad0c',
-        borderColor: '#adad0c',
+        backgroundColor: '#6b0202',
+        borderColor: '#6b0202',
         color: '#fff',
         borderRadius: 5,
         marginHorizontal: 15,
@@ -271,7 +271,7 @@ const styles = StyleSheet.create({
         marginTop: 10
     },
     backbuttonText: {
-        color: '#adad0c',
+        color: '#6b0202',
         textAlign: 'center',
         fontWeight: 'bold',
         paddingRight: 10,
@@ -301,7 +301,7 @@ const styles = StyleSheet.create({
         alignItems: 'center' 
     },
     buttonbarText: {
-        color: '#adad0c',
+        color: '#6b0202',
         textAlign: 'center',
         fontWeight: 'bold',
         fontSize: 10,
